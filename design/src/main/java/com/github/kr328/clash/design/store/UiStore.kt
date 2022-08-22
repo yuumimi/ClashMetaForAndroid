@@ -27,7 +27,7 @@ class UiStore(context: Context) {
 
     var proxyExcludeNotSelectable by store.boolean(
         key = "proxy_exclude_not_selectable",
-        defaultValue = false,
+        defaultValue = true,
     )
 
     var proxySingleLine: Boolean by store.boolean(
